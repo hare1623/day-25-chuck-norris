@@ -1,0 +1,45 @@
+body {
+  color: rgb(151, 207, 20);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.heading-container {
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, #532c77 0%, #ec09ec 100%);
+  color: #14da3f;
+}
+
+img{
+  width: 200px;
+  height: 300px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1em;
+  padding: 0.5em;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #0b532f 0%, #2afc2a 100%);
+}
+
+.container {
+  background-color: #8060ca;
+  padding: 1px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  gap: 1em;
+}
+
+@media (max-width:500px){
+  
+  .container{
+    background-color: aqua;
+    color: #532c77;
+  }
+}
